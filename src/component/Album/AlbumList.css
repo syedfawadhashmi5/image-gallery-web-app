@@ -1,0 +1,30 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.wrapper {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.wrapper_contain {
+    margin: 0px 20px;
+}
+
+.wrapper_contain > p {
+    color: #ff0000;
+}
+
+.wrapper_contain > button {
+    background-color: #0000ff;
+    border-radius: 50px;
+    color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+}
