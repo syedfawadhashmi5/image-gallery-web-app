@@ -1,19 +1,12 @@
-import React, {useState} from 'react'
-import './App.css';
-import Conter from './component/Conter'
-import {CounterContext, Namecontext} from "./counterContext";
+import React from "react";
+import "./App.css";
+import Header from "./component/Header/Header";
 
 function App() {
-
-  let increment = useState(1)
   return (
     <div className="App">
-      <CounterContext.Provider value={increment}>
-      <Namecontext.Provider value='fawad'>
-      <h1>Conter App</h1>
-      <Conter />
-      </Namecontext.Provider>
-      </CounterContext.Provider>
+      <Header />
+      <div></div>
     </div>
   );
 }
